@@ -12,9 +12,9 @@ import static org.bson.codecs.configuration.CodecRegistries.fromRegistries;
 
 public class MongoDbConnectionFactory {
 
-    private static final String username = "fherdelpino";
-    private static final String password = "";
-    private static final String host = "fherdelpino-mongodb-clu.mrclm.mongodb.net";
+    private static final String username = "m001-student";
+    private static final String password = "m001-mongodb-basics";
+    private static final String host = "sandbox.leyl9.mongodb.net";
     private static final String connectionStringFormat = "mongodb+srv://%s:%s@%s/test?retryWrites=true&w=majority";
 
     public static MongoClient getConnection() {
